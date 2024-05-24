@@ -2,6 +2,6 @@
 
 cd docker
 
-docker build -t Name_latest .
+docker build -t name_latest .
 
-docker run -it --name Name_container -v `pwd`/..:/Shared Name_latest
+docker run -it --name name_container -v `pwd`/..:/Shared name_latest
